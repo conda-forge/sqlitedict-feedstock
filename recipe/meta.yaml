@@ -1,5 +1,5 @@
 {% set name = "sqlitedict" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 483d6a063c4648dec68d413eb29df74399661f8541dcb3ee926d28fc2f82cb24
+  sha256: 2affcc301aacd4da7511692601ecbde392294205af418498f7d6d3ec0dbcad56
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
