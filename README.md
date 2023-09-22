@@ -1,11 +1,11 @@
-About sqlitedict
-================
+About sqlitedict-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlitedict-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RaRe-Technologies/sqlitedict
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlitedict-feedstock/blob/main/LICENSE.txt)
 
 Summary: Persistent dict in Python, backed up by sqlite3 and pickle, multithread-safe.
 
